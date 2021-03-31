@@ -6,3 +6,6 @@ We learn how to set up the Django admin panel and how to use filters and customi
 We learned how to use the "get_object_or_404" which is basically a shortcut to try: / except: and also how to define the get_absolute_url() method in our Model class in models.py
 to get the URL of a single item using arguments that we choose to use (see Post model in blog.models.py)
 We saw how to iterate through all of the items in the HTML template and how to use a paginator, defined in the views.py
+
+
+![Captura de pantalla 2021-03-31 151401](https://user-images.githubusercontent.com/81385234/113191383-d89bab00-9233-11eb-8567-e39d6412ab44.jpg)
