@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% block title %}{% endblock %}</title>
+    <link href="{% static "css/blog.css" %}" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+  <body>
+    <div id="content">{% block content %} {% endblock %}</div>
+    <div id="sidebar" style="border:10px solid">
+      <h2>Django Blog</h2>
+      <p>Este es un blog desarrollado en Django Framework, utilizando la guía del primer capitulo de Libro "Django by example" de Antonio Melé</p>
+    </div>
+  </body>
+</html>
